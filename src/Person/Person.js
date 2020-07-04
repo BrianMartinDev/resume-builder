@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import App from '../App';
 
 const person = (props) => {
     return(
@@ -9,6 +8,7 @@ const person = (props) => {
             
         </div>
     )
+    
 };
 const name = "sdsa";
  

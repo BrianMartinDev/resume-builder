@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './assets/css/bootstrap.min.css'
-
+import userInput from './Learning/UserInput';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <userInput />
   </React.StrictMode>,
   document.getElementById('root')
 );
